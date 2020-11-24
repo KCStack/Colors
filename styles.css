@@ -91,7 +91,7 @@ nav ul li a {
   text-align: center;
 }
 
-.titlehead h1 {
+.titlehead h2 {
   margin: 0;
   font-size: 4rem;
   padding: 130px 0 30px;
@@ -287,7 +287,7 @@ nav ul li a {
 
 @media screen and (max-width: 768px) {
   .ynav {
-    background: #f2d974;
+    background: #f2f4c0;
     height: 290px;
     width: 100%;
     position: relative;
