@@ -1,0 +1,331 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  background-color: #f4f4f2;
+}
+
+/***Taskbar***/
+
+.mnav {
+  background: #f4f4f2;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+nav img {
+  width: 70px;
+  position: relative;
+  top: 15px;
+  left: 100px;
+}
+
+nav ul {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+   color: #000;
+   font-size: 1.1rem;
+   padding: 7px 13px;
+   border-radius: 3px;
+}
+
+.mainpglink, .mlink:hover {
+  background: #bbbfca;
+  transition: .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .mnav {
+    background: #f4f4f2;
+    height: 290px;
+    width: 100%;
+    position: relative;
+  }
+  nav img {
+    display: none;
+  }
+
+  nav ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 10px;
+  }
+
+  nav ul li {
+    text-align: center;
+    display: block;
+    line-height: 70px;
+    margin: 0 5px;
+  }
+}
+
+
+/***Header***/
+
+.titlehead {
+  background-color: #495464;
+  color: #f4f4f2;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.titlehead h1 {
+  margin: 0;
+  font-size: 4rem;
+  padding: 130px 0 30px;
+}
+
+/***Color Containers***/
+
+.containers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 20px;
+  position: absolute;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.containers img {
+  background-color: #f4f4f2;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.container-info {
+  background-color: #bbbfca;
+  position: relative;
+  top: -200px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  width: 220px;
+  min-height: 250px;
+  margin: 15px;
+  padding: 40px 10px 40px;
+}
+
+.containers h4 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: #000;
+  padding: 20px 10px 10px;
+}
+
+.containers p {
+  font-weight: lighter;
+}
+
+/***GREEN PAGE**/
+
+.green {
+  background-color: #f4f4f2;
+}
+
+.gnav {
+  background: #b0eacd;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.greenpglink, .glink:hover {
+  background: #21bf73;
+  transition: .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .gnav {
+    background: #b0eacd;
+    height: 290px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+/**Green Header**/
+
+.headg {
+  text-align: center;
+  padding: 50px 0 50px;
+  font-weight: lighter;
+  color: #06623b;
+}
+
+/***Green Images***/
+
+.greengallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.greencol {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.greencol img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .greencol {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/**Black Page**/
+
+.black {
+  background-color: #f4f4f2;
+}
+
+.bnav {
+  background: #929aab;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.blackpglink, .blink:hover {
+  background: #222831;
+  color: #f4f4f2;
+  transition: .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .bnav {
+    background: #929aab;
+    height: 290px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+/**Black Header**/
+
+.headb {
+  text-align: center;
+  padding: 50px 0 50px;
+  font-weight: lighter;
+  color: #222831;
+}
+
+/***Black Images***/
+
+.blackgallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.blackcol {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.blackcol img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .blackcol {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/**Yellow Page**/
+
+.yellow {
+  background-color: #f4f4f2;
+}
+
+.ynav {
+  background: #f2f4c0;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.yellowpglink, .ylink:hover {
+  background: #f2d974;
+  transition: .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .ynav {
+    background: #f2d974;
+    height: 290px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+/**Yellow Header**/
+
+.heady {
+  text-align: center;
+  padding: 50px 0 50px;
+  font-weight: lighter;
+  color: #ffa45b;
+}
+
+/***Yellow Images***/
+
+.yellowgallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.yellowcol {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.yellowcol img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .yellowcol {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
